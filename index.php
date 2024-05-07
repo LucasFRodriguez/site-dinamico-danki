@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="palavras, chaves, para, o site">
     <meta name="description" content="SITE DINAMICO FEITO COM O CURSO DANKI CODE DE DESENVOLVEDOR WEB">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="estilo/style.css" rel="stylesheet" />
     <title>Site Dinâmico - Dev Rodriguez</title>
 </head>
 <body>
