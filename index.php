@@ -76,7 +76,7 @@
         <h2 class="title">Especialidades</h2>
             <div class="w33 left box-especialidades">
                 <h3><i class="fa fa-css3" aria-hidden="true"></i></h3>
-                <h3>CSS3</h3>
+                <h4>CSS3</h4>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum facere ducimus magnam saepe aliquid, 
                     reprehenderit error voluptate officiis quasi nisi tempora quae, ex, sequi dolorem quaerat odit vel 
                     quisquam corporis?</p>
@@ -84,7 +84,7 @@
 
             <div class="w33 left box-especialidades">
                 <h3><i class="fa fa-html5" aria-hidden="true"></i></h3>
-                <h3>HTML5</h3>
+                <h4>HTML5</h4>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum facere ducimus magnam saepe aliquid, 
                     reprehenderit error voluptate officiis quasi nisi tempora quae, ex, sequi dolorem quaerat odit vel 
                     quisquam corporis?</p>
@@ -92,12 +92,13 @@
 
             <div class="w33 left box-especialidades">
                 <h3><i class="fa fa-gg-circle" aria-hidden="true"></i></h3>
-                <h3>JavaScript</h3>
+                <h4>JavaScript</h4>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum facere ducimus magnam saepe aliquid, 
                     reprehenderit error voluptate officiis quasi nisi tempora quae, ex, sequi dolorem quaerat odit vel 
                     quisquam corporis?</p>
             </div>
         </div><!--center-->
+        <div class="clear"></div>
     </section><!--especialidades-->
 
     <section class="extras">
