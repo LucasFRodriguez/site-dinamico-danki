@@ -26,6 +26,9 @@
         </nav>
 
         <nav class="mobile right">
+            <div class="menu-mobile">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </div>
             <ul>
                 <li><a href="">Home</a></li>
                 <li><a href="">Sobre</a></li>
@@ -51,10 +54,10 @@
     <section class="desc-autor">
         <div class="center">
         <div class="w50 left" >
-        <h2>Lucas Ferreira Rodriguez</h2>
+        <h2>Lucas Ferreira Rodriguez.</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus velit unde porro illum nostrum iusto deserunt, iste sed quasi maiores cumque vel ratione harum a 
             sequi, eaque veritatis distinctio pariatur nisi voluptate libero! Repellat mollitia ducimus, impedit alias dolor fugit maxime vitae suscipit at ipsa explicabo autem 
-            obcaecati beatae sed sed distinctio distinctio distinctio distinctio distinctio distinctio distinctio distinctio distinctio distinctio distinctio !
+            obcaecati.
         </p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus velit unde porro illum nostrum iusto deserunt, iste sed quasi maiores cumque vel ratione harum a 
             sequi, eaque veritatis distinctio pariatur nisi voluptate libero! Repellat mollitia ducimus, impedit alias dolor fugit maxime vitae suscipit at ipsa explicabo autem 
@@ -62,7 +65,7 @@
         </p>
         </div><!--w50-->
         <div class="w50 left">
-            <img src="images/eu.png" />
+            <img class="right" src="images/eu.png" />
         </div><!--w50-->
         <div class="clear"></div>
         </div><!--center-->
