@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="palavras, chaves, para, o site">
     <meta name="description" content="SITE DINAMICO FEITO COM O CURSO DANKI CODE DE DESENVOLVEDOR WEB">
+    <link rel="stylesheet" href="estilo/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
@@ -13,9 +14,9 @@
 </head>
 <body>
     <header>
-        </div><!--center-->
-        <div class="logo">Logomarca</div>
-        <nav class="desktop">
+        <div class="center"><!--center-->
+        <div class="logo left">DEV RODRIGUEZ</div>
+        <nav class="desktop right">
             <ul>
                 <li><a href="">Home</a></li>
                 <li><a href="">Sobre</a></li>
@@ -24,7 +25,7 @@
             </ul>
         </nav>
 
-        <nav class="mobile">
+        <nav class="mobile right">
             <ul>
                 <li><a href="">Home</a></li>
                 <li><a href="">Sobre</a></li>
@@ -32,6 +33,7 @@
                 <li><a href="">Contato</a></li>
             </ul>
         </nav>
+        <div class="clear"></div><!--clear-->
         </div><!--center-->
     </header>
 
@@ -47,7 +49,7 @@
 
     <section class="desc-autor">
         <div class="center">
-        <div class="w50" >
+        <div class="w50 left" >
         <h2>Lucas Ferreira Rodriguez</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus velit unde porro illum nostrum iusto deserunt, iste sed quasi maiores cumque vel ratione harum a 
             sequi, eaque veritatis distinctio pariatur nisi voluptate libero! Repellat mollitia ducimus, impedit alias dolor fugit maxime vitae suscipit at ipsa explicabo autem 
@@ -58,33 +60,34 @@
             obcaecati beatae sed distinctio distinctio distinctio distinctio distinctio distinctio distinctio distinctio distinctio distinctio distinctio !
         </p>
         </div><!--w50-->
-        <div class="w50">
+        <div class="w50 left">
             <img src="images/eu.png" />
         </div><!--w50-->
+        <div class="clear"></div>
         </div><!--center-->
     </section><!--descrição sobre o autor-->
 
     <section class="especialidades">
         <div class="center">
         <h2 class="title">Especialidades</h2>
-            <div class="box-especialidades">
-                <h3>ICONE 1</h3>
+            <div class="w33 left box-especialidades">
+                <h3><i class="fa fa-css3" aria-hidden="true"></i></h3>
                 <h3>CSS3</h3>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum facere ducimus magnam saepe aliquid, 
                     reprehenderit error voluptate officiis quasi nisi tempora quae, ex, sequi dolorem quaerat odit vel 
                     quisquam corporis?</p>
             </div>
 
-            <div class="box-especialidades">
-                <h3>ICONE 2</h3>
+            <div class="w33 left box-especialidades">
+                <h3><i class="fa fa-html5" aria-hidden="true"></i></h3>
                 <h3>HTML5</h3>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum facere ducimus magnam saepe aliquid, 
                     reprehenderit error voluptate officiis quasi nisi tempora quae, ex, sequi dolorem quaerat odit vel 
                     quisquam corporis?</p>
             </div>
 
-            <div class="box-especialidades">
-                <h3>ICONE 3</h3>
+            <div class="w33 left box-especialidades">
+                <h3><i class="fa fa-gg-circle" aria-hidden="true"></i></h3>
                 <h3>JavaScript</h3>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum facere ducimus magnam saepe aliquid, 
                     reprehenderit error voluptate officiis quasi nisi tempora quae, ex, sequi dolorem quaerat odit vel 
@@ -95,7 +98,7 @@
 
     <section class="extras">
         <div class="center">
-        <div class="w50">
+        <div class="w50 left">
             <h2 class="title">Depoimentos</h2>
             <div class="depoimentos-single">
                 <p class="depoimentos-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum sit blanditiis repellat enim magnam adipisci, 
@@ -115,7 +118,7 @@
 
         </div><!--w50-->
 
-        <div class="w50">
+        <div class="w50 left">
             <h2 class="title">Serviços</h2>
             <div class="sevicos">
             <ul>
@@ -128,6 +131,7 @@
             </ul>
             </div><!--servicos-->
         </div><!--w50-->
+        <div class="clear"></div>
         </div><!--center-->
     </section><!--extras-->
 
