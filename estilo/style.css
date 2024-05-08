@@ -181,6 +181,88 @@ section.especialidades h2.title{
     margin-top: 10px;
 }
 
+section.extras{
+    padding: 30px 0;
+    background: #177BA5;
+}
+
+.depoimentos-container, .servicos-container{
+    padding:0 50px;
+}
+
+section.extras .title{
+    color: white;
+    font-weight: 300;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.depoimentos-single{
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(138, 138, 138, 0.719);
+}
+
+p.depoimentos-desc{
+    font-weight: 300;
+    font-size: 15px;
+    color: white;
+}
+
+p.nome-autor{
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    margin-top: 5px;
+}
+
+div.sevicos ul{
+    margin: 20px 0;
+}
+
+div.sevicos li{
+    font-weight: 300;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+footer{
+    background: #177BA5;
+    padding: 20px 0;
+    border-top: 1px solid black;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    font-weight:400;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 768px){
+    img{
+        float: none !important;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .w50{
+        padding: 20px;
+        width: 100%;
+    }
+
+    .w33{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .box-especialidades{
+        padding: 30px 20px;
+        margin: 0;
+    }
+
+}
+
 @media screen and (max-width: 700px){
     nav.desktop{
         display: none;
@@ -220,30 +302,6 @@ section.especialidades h2.title{
         display: block;
         color: #444;
         text-decoration: none;
-    }
-
-}
-
-@media screen and (max-width: 768px){
-    img{
-        float: none !important;
-        display: block;
-        margin: 0 auto;
-    }
-
-    .w50{
-        padding: 20px;
-        width: 100%;
-    }
-
-    .w33{
-        width: 100%;
-        padding: 20px;
-    }
-
-    .box-especialidades{
-        padding: 30px 20px;
-        margin: 0;
     }
 
 }

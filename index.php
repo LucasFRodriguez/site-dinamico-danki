@@ -103,7 +103,7 @@
 
     <section class="extras">
         <div class="center">
-        <div class="w50 left">
+        <div class="w50 left depoimentos-container">
             <h2 class="title">Depoimentos</h2>
             <div class="depoimentos-single">
                 <p class="depoimentos-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum sit blanditiis repellat enim magnam adipisci, 
@@ -123,7 +123,7 @@
 
         </div><!--w50-->
 
-        <div class="w50 left">
+        <div class="w50 left servicos-container">
             <h2 class="title">Serviços</h2>
             <div class="sevicos">
             <ul>
@@ -142,7 +142,7 @@
 
     <footer>
         <div class="center">
-            <p>Todos os direitos reservados</p>
+            <p>Todos os direitos reservados - DEV RODRIGUEZ</p>
         </div>
     </footer>
 
