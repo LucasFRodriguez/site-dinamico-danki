@@ -15,7 +15,7 @@
 <body>
     <header>
         <div class="center"><!--center-->
-        <div class="logo left">DEV RODRIGUEZ</div>
+        <div class="logo left"><a href="/">DEV RODRIGUEZ</a></div>
         <nav class="desktop right">
             <ul>
                 <li><a href="">Home</a></li>
@@ -24,7 +24,6 @@
                 <li><a href="">Contato</a></li>
             </ul>
         </nav>
-
         <nav class="mobile right">
             <div class="menu-mobile">
                 <i class="fa fa-bars" aria-hidden="true"></i>
@@ -39,7 +38,6 @@
         <div class="clear"></div><!--clear-->
         </div><!--center-->
     </header>
-
     <section class="banner-principal">
         <div class="overlay"></div><!--overlay-->
         <div class="center">
@@ -50,7 +48,6 @@
         </form>
         </div><!--center-->
     </section><!--benner-principal-->
-
     <section class="desc-autor">
         <div class="center">
         <div class="w50 left" >
@@ -70,7 +67,6 @@
         <div class="clear"></div>
         </div><!--center-->
     </section><!--descrição sobre o autor-->
-
     <section class="especialidades">
         <div class="center">
         <h2 class="title">Especialidades</h2>
@@ -81,7 +77,6 @@
                     reprehenderit error voluptate officiis quasi nisi tempora quae, ex, sequi dolorem quaerat odit vel 
                     quisquam corporis?</p>
             </div>
-
             <div class="w33 left box-especialidades">
                 <h3><i class="fa fa-html5" aria-hidden="true"></i></h3>
                 <h4>HTML5</h4>
@@ -89,7 +84,6 @@
                     reprehenderit error voluptate officiis quasi nisi tempora quae, ex, sequi dolorem quaerat odit vel 
                     quisquam corporis?</p>
             </div>
-
             <div class="w33 left box-especialidades">
                 <h3><i class="fa fa-gg-circle" aria-hidden="true"></i></h3>
                 <h4>JavaScript</h4>
@@ -100,7 +94,6 @@
         </div><!--center-->
         <div class="clear"></div>
     </section><!--especialidades-->
-
     <section class="extras">
         <div class="center">
         <div class="w50 left depoimentos-container">
@@ -112,7 +105,6 @@
                 quidem ipsa amet eum doloribus dignissimos accusantium.</p>
                 <p class="nome-autor">Lorem Ipsum</p>
             </div><!--depoimentos-single-->
-
             <div class="depoimentos-single">
                 <p class="depoimentos-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum sit blanditiis repellat enim magnam adipisci, 
                 ab explicabo sed illo fugit laudantium earum, non necessitatibus dignissimos odio nostrum excepturi exercitationem 
@@ -120,9 +112,7 @@
                 quidem ipsa amet eum doloribus dignissimos accusantium.</p>
                 <p class="nome-autor">Lorem Ipsum</p>
             </div><!--depoimentos-single-->
-
         </div><!--w50-->
-
         <div class="w50 left servicos-container">
             <h2 class="title">Serviços</h2>
             <div class="sevicos">
@@ -139,14 +129,12 @@
         <div class="clear"></div>
         </div><!--center-->
     </section><!--extras-->
-
     <footer>
         <div class="center">
             <p>Todos os direitos reservados - DEV RODRIGUEZ</p>
         </div>
     </footer>
-
-
 <script src="js/jquery.js"></script>
+<script src="js/scripts.js"></script>
 </body>
 </html>
