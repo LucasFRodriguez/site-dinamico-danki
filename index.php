@@ -146,5 +146,7 @@
         </div>
     </footer>
 
+
+<script src="js/jquery.js"></script>
 </body>
 </html>
