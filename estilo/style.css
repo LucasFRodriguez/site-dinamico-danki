@@ -6,6 +6,16 @@
 }
 
 /*Boot CSS**/
+
+html,body{
+    overflow-x: hidden;
+    height: 100%;
+}
+
+input{
+    border: 0;
+}
+
 img{
     width: 100%;
     max-width: 400px;
@@ -240,11 +250,49 @@ footer{
     border-top: 1px solid black;
 }
 
+footer.fixeds{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 footer p{
     color: white;
     text-align: center;
     font-weight:400;
     font-size: 15px;
+}
+
+section.erro-404 h1{
+    text-align: center;
+    color: #444;
+    font-weight: 400;
+    border-top: 2px solid #444;
+    font-size: 28px;
+}
+
+section.erro-404 p{
+    margin-top: 8px;
+    text-align: center;
+    font-size: 18px;
+    color: #444;
+    font-weight: 300;
+}
+
+section.erro-404 a{
+    color: #444;
+}
+
+.wrapper-404{
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    max-width: 1280px;
+    width: 100%;
+    left: 50%;
+    padding: 0 2%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
 }
 
 @media screen and (max-width: 768px){
@@ -270,6 +318,7 @@ footer p{
     }
 
 }
+
 
 @media screen and (max-width: 700px){
     nav.desktop{

@@ -41,10 +41,20 @@
     </header>
 
     <?php 
-        
+
+        $url = isset($_GET['url']) ? $_GET['url'] : 'home';
+
+        if(file_exists('pages/'.$url.'.php')){
+            include('pages/'.$url.'.php');
+        }else{
+            // FAZER O QUE QUISER, POIS A PAGINA NAO EXISTE! PAGINA DE ERRO - 404 - REDIRECIONAR PARA HOME E ETC...
+            $pagina404 = true;
+            include('pages/404.php');
+        }
+
     ?>
 
-    <footer>
+    <footer <?php if(isset($pagina404) && $pagina404 == true)echo 'class="fixeds"'; ?> >
         <div class="center">
             <p>Todos os direitos reservados - DEV RODRIGUEZ</p>
         </div>
