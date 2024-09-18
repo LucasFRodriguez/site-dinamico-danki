@@ -14,4 +14,12 @@ $(function(){
             listaMenu.slideToggle();
         }
     })
+
+    if($('target').lengt > 0){
+        //o elemento existe, scroll em algum elemento.
+        var elemento = '#'+$('target').attr('target');
+        var divScroll = $(elemento).offset().top;
+        $('html,body').animate({'scrollTop':divScroll},2000);
+    }
+
 });

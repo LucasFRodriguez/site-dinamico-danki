@@ -14,13 +14,28 @@
     <title>Site Dinâmico - Dev Rodriguez</title>
 </head>
 <body>
+
+    <?php 
+
+        $url = isset($_GET['url']) ? $_GET['url'] : 'home';
+        switch ($url){
+            case 'depoimentos':
+                echo '<target target="depoimentos"/>';
+                break;
+                
+            case 'servicos':
+                echo '<target target="servicos"/>';
+                break;
+        }
+    ?>
+
     <header>
         <div class="center"><!--center-->
         <div class="logo left"><a href="">DEV RODRIGUEZ</a></div>
         <nav class="desktop right">
             <ul>
                 <li><a href="<?php echo INCLUDE_PATH; ?>">Home</a></li>
-                <li><a href="<?php echo INCLUDE_PATH; ?>sobre">Sobre</a></li>
+                <li><a href="<?php echo INCLUDE_PATH; ?>depoimentos">Depoimentos</a></li>
                 <li><a href="<?php echo INCLUDE_PATH; ?>servicos">Serviços</a></li>
                 <li><a href="<?php echo INCLUDE_PATH; ?>contato">Contato</a></li>
             </ul>
@@ -31,7 +46,7 @@
             </div>
             <ul>
                 <li><a href="<?php echo INCLUDE_PATH; ?>">Home</a></li>
-                <li><a href="<?php echo INCLUDE_PATH; ?>sobre">Sobre</a></li>
+                <li><a href="<?php echo INCLUDE_PATH; ?>depoimentos">Depoimentos</a></li>
                 <li><a href="<?php echo INCLUDE_PATH; ?>servicos">Serviços</a></li>
                 <li><a href="<?php echo INCLUDE_PATH; ?>contato">Contato</a></li>
             </ul>
@@ -48,8 +63,12 @@
             include('pages/'.$url.'.php');
         }else{
             // FAZER O QUE QUISER, POIS A PAGINA NAO EXISTE! PAGINA DE ERRO - 404 - REDIRECIONAR PARA HOME E ETC...
-            $pagina404 = true;
-            include('pages/404.php');
+            if($url != 'depoimentos' && $url != 'servicos' ){
+                $pagina404 = true;
+                include('pages/404.php');
+            }else{
+                include('pages/home.php');
+            }
         }
 
     ?>
